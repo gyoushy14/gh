@@ -1,0 +1,41 @@
+.fa-whatsapp:hover {
+  color: green;
+  padding-left: 10px;
+  transition: 300ms;
+  /* transition: 200ms; */
+}
+.fa-whatsapp {
+  color: white;
+}
+.fa-instagram:hover {
+  color: crimson;
+  padding-right: 10px;
+  transition: 300ms;
+}
+.fa-instagram {
+  color: white;
+}
+.footer_link {
+  color: aliceblue;
+  text-decoration: none;
+  font-style: oblique;
+  font-weight: 600;
+  transition: 300ms;
+}
+
+.footer_link:hover {
+  padding: 10px;
+  transition: 300ms;
+}
+
+.men {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.men:hover {
+  background-color: aliceblue;
+  border-radius: 10px;
+  color: black;
+  transition: 300ms;
+}

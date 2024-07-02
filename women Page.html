@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GH14 WOMEN</title>
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="clothestask.css">
+</head>
+
+<body>
+
+  <!-- navbar -->
+  <section class="bg-dark " id="sec">
+    <nav class="navbar navbar-expand-lg bg-dark container p-3">
+      <div class="container-fluid">
+        <img src="images/output_image.jpeg" width="60px" height="60px" class="rounded-pill me-2" alt=""><a
+          class="navbar-brand fw-bold fs-4 text-white" href="#">GH14</a>
+        <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active fw-bold text-white" aria-current="page" href="Home Page.html">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold  men" href="men Page.html">MEN</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold  men" href="women Page.html">WOMEN</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav text-white ms-auto gap-3 ">
+            <li>
+              <button class="btn btn-outline-light fw-bold"><a href="login Page.html" class="men">LOGIN</a></button>
+            </li>
+            <li>
+              <div class="btn btn-outline-light fw-bold">SIGN</div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </section>
+  <!-- finish navbar -->
+
+  <!-- Card Of Suits -->
+  <img style="display: none; position: absolute;" id="card_men_suit1" src="images/hoodiewomen1.jpg" class="card-img-top"
+    alt="...">
+  <img id="card_men_suit2" src="images/jackjones-plaincrewneckjumper-pink.webp"
+    style="display: none; position: absolute;" class="card-img-top" alt="...">
+  <img id="card_men_suit3" src="images/Cropped Sweater Outfit.jpeg" style="display: none; position: absolute;"
+    class="card-img-top" alt="...">
+
+  <section class="container-fluid mt-3 row">
+    <div class="col-2">
+      <div class=" card rounded-5 bg-black" style="width: 13rem; height: 25rem;">
+        <img src="images/hoodiewomen1.jpg" class="card-img-top" alt="...">
+        <div class="card-body text-white">
+          <h5 class="card-title">Women Hooded Sweatshirt Ladies Winter Warm </h5>
+          <p class="card-text ">
+            <span id="price1">£23.446.8</span> <del class="fw-light">£34.101</del>
+          </p>
+          <button class="btn btn-dark fw-bold" id="btn_first_card">Buy Now</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-2">
+      <div class="card rounded-5 bg-black" style="width: 13rem; height: 25rem;">
+        <img src="images/jackjones-plaincrewneckjumper-pink.webp" height="230px" class="card-img-top" alt="...">
+        <div class="card-body text-white">
+          <h5 class="card-title">PLAIN CREW NECK JUMPER</h5>
+          <p class="card-text ">
+            <span id="price2">£60</span> <del class="fw-light">£80</del>
+          </p>
+          <button class="btn btn-dark fw-bold" id="btn_seconed_card">Buy Now</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-3">
+      <div class="card rounded-5 bg-black" style="width: 13rem; height: 25rem;">
+        <img src="images/Cropped Sweater Outfit.jpeg" height="210px" class="card-img-top">
+        <div class="card-body text-white">
+          <h5 class="card-title">Knit sweater Knit crop top Cropped wool sweater </h5>
+          <p class="card-text">
+            <span id="price3">£17,99</span> <del class="fw-light">£25,99</del>
+          </p>
+          <button class="btn btn-dark fw-bold " id="btn_third_card">Buy Now</button>
+        </div>
+      </div>
+    </div>
+
+    <!--YOUR PURECHASES  -->
+    <div class="col-5 d-inline" style="width: 400px;">
+      <h3 class="text-center">YOUR PURECHASES</h3><br>
+      <div class="card">
+        <div class="card-body p-2 rounded border border-dark border-2">
+          <span class=" me-5" id="empty_img"></span>
+          Price : <span class="" id="inner_price"></span>
+          <span>
+            <button id="min" class="btn btn-danger p-1 rounded-pill ms-4">-</button>
+            <input type="text" style="width: 50px;" value="0" class="ms-1 rounded me-1 p-0" id="ini">
+            <button id="plus" class="btn btn-success p-1 rounded-pill">+</button>
+          </span>
+          <input type="reset" value="Reset" class="border border-danger border-3 rounded bg-white text-danger p-1"
+            style="width: 60px;margin-left: 6px;" id="reset1">
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+
+  <!---------------- Cards Of Casual ------------->
+
+  <img id="casual_card1" style="display: none; position: absolute;"
+    src="images/b6de93f1-52a1-4da3-b8fe-de72ee4e72b2.fb0955ab3a4fe207bc6a6993c399ca85.webp" height="225px"
+    class="card-img-top" alt="...">
+  <img id="casual_card3" style="display: none; position: absolute;" src="images/s-l1600.jpg" class="card-img-top"
+    height="225px" alt="...">
+  <img id="casual_card2" style="display: none; position: absolute;" src="images/71BWF8gJ2JL._AC_SX569_.jpg"
+    height="225px" class="card-img-top" alt="...">
+  <section class="container-fluid mt-3  row">
+    <div class="col-2">
+      <div class=" card rounded-5 bg-black" style="width: 13rem; height: 26rem;">
+        <img src="images/b6de93f1-52a1-4da3-b8fe-de72ee4e72b2.fb0955ab3a4fe207bc6a6993c399ca85.webp" height="225px"
+          class="card-img-top" alt="...">
+        <div class="card-body text-white">
+          <h5 class="card-title">Baggy Jeans For Girls</h5>
+          <p class="card-text ">
+            <span id="real_c_price1"> £19,99 </span><del class="fw-light">£25,99</del>
+          </p><br>
+          <button class="btn btn-dark fw-bold" id="btn_c_card1">Buy Now</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-2">
+      <div class="card rounded-5 bg-black" style="width: 13rem; height: 26rem; ">
+        <img src="images/71BWF8gJ2JL._AC_SX569_.jpg" height="225px" class="card-img-top" alt="...">
+        <div class="card-body text-white">
+          <h5 class="card-title">American Eagle Women Suede Cropped Jacket</h5>
+          <p class="card-text ">
+            <span id="real_c_price2">£20</span> <del class="fw-light">£30</del>
+          </p>
+          <button class="btn btn-dark fw-bold" id="btn_c_card2">Buy Now</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-3">
+      <div class="card rounded-5 bg-black" style="width: 13rem; height: 26rem;">
+        <img id="casual_card3" src="images/s-l1600.jpg" class="card-img-top" height="225px" alt="...">
+        <div class="card-body text-white">
+          <h5 class="card-title">Girls Ripped Jeans Elastic Waist Wide Leg Denim Baggy</h5>
+          <p class="card-text"><br>
+            <span id="real_c_price3">£6</span> <del class="fw-light">£9</del>
+          </p>
+          <button class="btn btn-dark fw-bold " id="btn_c_card3">Buy Now</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- --------------------------------------------------------------------------------------- -->
+
+    <!--YOUR PURECHASES  -->
+    <div class="col-5" style="width: 400px;">
+      <h3 class="text-center">YOUR PURECHASES</h3><br>
+      <div class="card">
+        <div class="card-body p-2 rounded border border-dark border-2">
+          <span class=" me-5" id="empty_img2"></span>
+          Price : <span class="" id="inner_price2"></span>
+          <span>
+            <button id="min2" class="btn btn-danger p-1 rounded-pill ms-4">-</button>
+            <input type="text" style="width: 50px;" value="0" class="ms-1 rounded me-1 p-0" id="ini2">
+            <button id="plus2" class="btn btn-success p-1 rounded-pill">+</button>
+          </span>
+          <input type="reset" value="Reset" class="border border-danger border-3 rounded bg-white text-danger p-1"
+            style="width: 65px;margin-left: 6px; " id="reset2">
+        </div>
+
+      </div>
+
+    </div>
+
+    <span class=" text-center mt-5">
+      <input type="submit" value="submit" class="btn btn-dark text-light text-center p-3">
+    </span>
+  </section><br>
+
+  <!-- FOOTER -->
+  <section class=" container-fluid bg-dark pb-3 pt-3">
+    <footer id="footer" class=" footer container-fluid bg-dark ">
+      <div class="row">
+
+        <h5 class="col-4 fw-bold text-light">Company</h5>
+        <h5 class="col-4 fw-bold text-light">Online Shop</h5>
+        <h5 class="col-4 fw-bold text-light">Follow Us</h5>
+      </div>
+      <div class="row">
+        <a class="col-4 footer_link" href="about us Page.html">About Us</a>
+        <span class="col-4 text-white fw-bold">Formal <a href="men Page.html" class="footer_link"
+            style="transition: 800ms;">Men</a> , <a href="women Page.html" style="transition: 800ms;"
+            class="footer_link">Women</a></span>
+        <a class="col-4 footer_link" href="https://www.instagram.com/gyuoshy_14?igsh=Nng5amJyN21rcHI1"><i
+            class="fa-brands fa-2xl fa-instagram"></i></a>
+      </div>
+      <div class="row">
+        <a class="footer_link col-4" href="">Our Services</a>
+        <span class="col-4  text-light fw-bold">Casual <a href="men Page.html" class="footer_link">Men</a> , <a
+            href="women Page.html" class="footer_link">Women</a></span>
+        <span class="col-4 mt-2"><a class="footer_link" id="face"
+            href="https://www.facebook.com/profile.php?id=100050276316996&mibextid=ZbWKwL"><i
+              class="fa-brands fa-facebook fa-2xl"></i></a></span>
+      </div>
+      <div class="row">
+        <a class="col-4 footer_link" href="">Contact Us</a>
+        <div class="col-4"></div>
+        <a class="col-4 alink mt-2 footer_link" href=""><i class="fa-brands fa-whatsapp fa-2xl"></i></a>
+      </div>
+      <div style="direction: rtl;" class="me-5"><a href="#sec" class="up-icon fa-2xl text-white" id="up-icon"><i
+            class="fa-solid fa-circle-chevron-up"></i></a></div>
+      </div>
+    </footer>
+  </section>
+  <footer id="seconed_footer" class="container-fluid p-3 bg-secondary">© 2023 GH14</footer>
+  <script src="clothes.js"></script>
+  <script src="js/all.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
